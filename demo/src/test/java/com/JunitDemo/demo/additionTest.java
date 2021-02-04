@@ -4,7 +4,12 @@ import junit.framework.TestCase;
 
 public class additionTest extends TestCase{
 	public void testAddition() {
-		additionClass addClass = new additionClass();
-		assertEqual(2,addClass.addOne(1));
+		additonClass addClass = new additonClass();
+		assertEquals(2,addClass.addOne(1));
+
+	}
+	public void testTwoNumberAddition() {
+		additonClass addClass = new additonClass();
+		assertEquals(3,addClass.addTwoNumbers(1,2));
 	}
 }
